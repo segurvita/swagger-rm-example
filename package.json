@@ -19,5 +19,8 @@
   "dependencies": {
     "cross-env": "^5.2.0",
     "js-yaml": "^3.12.0"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
   }
 }
