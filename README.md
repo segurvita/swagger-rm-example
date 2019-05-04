@@ -41,3 +41,17 @@ var outputStr = swaggerRmExample.removeExample(inputStr);
 console.log(outputStr);
 ```
 
+
+
+# Development
+
+If you edit this project, you can clone it from the repository and build the development environment with the following command.
+
+```bash
+# Install required packages
+npm install
+
+# Run the test
+npm test
+```
+
