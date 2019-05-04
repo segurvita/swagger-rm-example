@@ -45,3 +45,17 @@ var outputStr = swaggerRmExample.removeExample(inputStr);
 console.log(outputStr);
 ```
 
+
+
+# 開発環境構築
+
+本プロジェクトを編集した場合、リポジトリから本プロジェクトをクローンし、以下のコマンドで開発環境を構築できます。
+
+```bash
+# 必要なパッケージの導入
+npm install
+
+# テスト実行
+npm test
+```
+
