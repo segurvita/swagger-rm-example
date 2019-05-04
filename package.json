@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/segurvita/swagger-rm-example#readme",
   "dependencies": {
+    "cross-env": "^5.2.0",
     "js-yaml": "^3.12.0"
   }
 }
