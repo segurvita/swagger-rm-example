@@ -1,6 +1,6 @@
 {
   "name": "swagger-rm-example",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This library removes example from your swagger code.",
   "main": "index.js",
   "scripts": {
