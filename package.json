@@ -1,6 +1,6 @@
 {
   "name": "swagger-rm-example",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "This library removes example from your swagger code.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/segurvita/swagger-rm-example#readme",
   "dependencies": {
     "cross-env": "^5.2.0",
-    "js-yaml": "^3.12.0"
+    "js-yaml": "^3.13.1"
   },
   "devDependencies": {
     "jest": "^24.7.1"
