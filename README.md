@@ -1,4 +1,4 @@
-# swagger-rm-example
+# swagger-rm-example [![Build Status](https://travis-ci.org/segurvita/swagger-rm-example.svg?branch=master)](https://travis-ci.org/segurvita/swagger-rm-example)
 <div style="text-align:right">Language: <i>English</i> | <a href="README_JA.md">日本語</a></div>
 
 This library removes `example` from your swagger code.
