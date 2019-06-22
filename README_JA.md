@@ -1,4 +1,4 @@
-# swagger-rm-example
+# swagger-rm-example [![Build Status](https://travis-ci.org/segurvita/swagger-rm-example.svg?branch=master)](https://travis-ci.org/segurvita/swagger-rm-example)
 <div style="text-align:right">Language: <a href="README.md">English</a> | <i>日本語</i></div>
 
 swaggerのコードからexampleを取り除くnpmライブラリを作りました。
