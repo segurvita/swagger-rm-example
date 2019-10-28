@@ -1,6 +1,5 @@
 # swagger-rm-example [![Build Status](https://travis-ci.org/segurvita/swagger-rm-example.svg?branch=master)](https://travis-ci.org/segurvita/swagger-rm-example)
 <div style="text-align:right">Language: <i>English</i> | <a href="README_JA.md">日本語</a></div>
-
 This library removes `example` from your swagger code.
 
 
@@ -9,7 +8,7 @@ This library removes `example` from your swagger code.
 
 The purpose of this library is to avoid errors that occure when importing a swagger file into Amazon API Gateway like below.
 
-```
+```bash
 errors : [Invalid model schema specified. Unsupported keyword(s): ["example"]]
 ```
 
@@ -27,15 +26,15 @@ Please call the library as following.
 
 ```javascript
 // import package
-var fs = require('fs');
-var swaggerRmExample = require('swagger-rm-example');
+const fs = require('fs');
+const swaggerRmExample = require('swagger-rm-example');
 
 // read yaml file
-var inputFile = "./swagger.yaml";
-var inputStr = fs.readFileSync(inputFile, 'utf8');
+const inputFile = "./swagger.yaml";
+const inputStr = fs.readFileSync(inputFile, 'utf8');
 
 // remove example from string
-var outputStr = swaggerRmExample.removeExample(inputStr);
+const outputStr = swaggerRmExample.removeExample(inputStr);
 
 // display result
 console.log(outputStr);

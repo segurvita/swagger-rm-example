@@ -1,6 +1,5 @@
 # swagger-rm-example [![Build Status](https://travis-ci.org/segurvita/swagger-rm-example.svg?branch=master)](https://travis-ci.org/segurvita/swagger-rm-example)
 <div style="text-align:right">Language: <a href="README.md">English</a> | <i>日本語</i></div>
-
 swaggerのコードからexampleを取り除くnpmライブラリを作りました。
 
 
@@ -9,7 +8,7 @@ swaggerのコードからexampleを取り除くnpmライブラリを作りまし
 
 Amazon API GatewayにSwaggerファイルをインポートしたところ、以下のようなエラーが発生しました。
 
-```
+```bash
 errors : [Invalid model schema specified. Unsupported keyword(s): ["example"]]
 ```
 
@@ -31,15 +30,15 @@ npm install swagger-rm-example
 
 ```javascript
 // ライブラリを追加
-var fs = require('fs');
-var swaggerRmExample = require('swagger-rm-example');
+const fs = require('fs');
+const swaggerRmExample = require('swagger-rm-example');
 
 // YAMLファイルを読み込み
-var inputFile = "./swagger.yaml";
-var inputStr = fs.readFileSync(inputFile, 'utf8');
+const inputFile = "./swagger.yaml";
+const inputStr = fs.readFileSync(inputFile, 'utf8');
 
 // 文字列からexampleを削除
-var outputStr = swaggerRmExample.removeExample(inputStr);
+const outputStr = swaggerRmExample.removeExample(inputStr);
 
 // 結果を表示
 console.log(outputStr);
