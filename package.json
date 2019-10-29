@@ -10,7 +10,6 @@
     "js-yaml": "^3.13.1"
   },
   "devDependencies": {
-    "cross-env": "^6.0.3",
     "jest": "^24.9.0"
   },
   "homepage": "https://github.com/segurvita/swagger-rm-example#readme",
@@ -24,6 +23,6 @@
     "url": "git+https://github.com/segurvita/swagger-rm-example.git"
   },
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest"
+    "test": "jest"
   }
 }
