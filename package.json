@@ -1,7 +1,7 @@
 {
   "name": "swagger-rm-example",
   "description": "This library removes example from your swagger code.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "segur",
   "bugs": {
     "url": "https://github.com/segurvita/swagger-rm-example/issues"
