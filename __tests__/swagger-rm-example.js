@@ -1,5 +1,5 @@
 'use strict';
-var swaggerRmExample = require('../lib/swagger-rm-example');
+const swaggerRmExample = require('../lib/swagger-rm-example');
 
 // sample yaml with example for test
 const sampleWithExample = `swagger: '2.0'
@@ -55,6 +55,6 @@ paths:
 
 // test of removeExample
 test('sample test', () => {
-    var resultRmExample = swaggerRmExample.removeExample(sampleWithExample);
+    const resultRmExample = swaggerRmExample.removeExample(sampleWithExample);
     expect(resultRmExample).toBe(sampleWithoutExample);
 });
