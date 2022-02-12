@@ -55,6 +55,6 @@ paths:
 
 // test of removeExample
 test('sample test', () => {
-    const resultRmExample = swaggerRmExample.removeExample(sampleWithExample);
-    expect(resultRmExample).toBe(sampleWithoutExample);
+  const resultRmExample = swaggerRmExample.removeExample(sampleWithExample);
+  expect(resultRmExample).toBe(sampleWithoutExample);
 });
