@@ -28,7 +28,7 @@ paths:
                 example: 404
 `;
 
-// sample yaml without exammple for test
+// sample yaml without example for test
 const sampleWithoutExample = `swagger: '2.0'
 info:
   description: sample
