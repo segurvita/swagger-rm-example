@@ -6,7 +6,7 @@ This library removes `example` from your swagger code.
 
 # Purpose
 
-The purpose of this library is to avoid errors that occure when importing a swagger file into Amazon API Gateway like below.
+The purpose of this library is to avoid errors that occur when importing a swagger file into Amazon API Gateway like below.
 
 ```bash
 errors : [Invalid model schema specified. Unsupported keyword(s): ["example"]]
