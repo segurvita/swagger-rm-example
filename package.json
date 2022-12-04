@@ -10,7 +10,7 @@
     "js-yaml": "^3.13.1"
   },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^29.3.1"
   },
   "homepage": "https://github.com/segurvita/swagger-rm-example#readme",
   "keywords": [
