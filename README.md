@@ -1,4 +1,4 @@
-# swagger-rm-example [![Build Status](https://travis-ci.org/segurvita/swagger-rm-example.svg?branch=master)](https://travis-ci.org/segurvita/swagger-rm-example)
+# swagger-rm-example [![CI](https://github.com/segurvita/swagger-rm-example/actions/workflows/ci.yml/badge.svg)](https://github.com/segurvita/swagger-rm-example/actions)
 
 ![hero](docs/images/hero.jpg)
 
