@@ -1,8 +1,9 @@
 # swagger-rm-example [![Build Status](https://travis-ci.org/segurvita/swagger-rm-example.svg?branch=master)](https://travis-ci.org/segurvita/swagger-rm-example)
+
+![hero](docs/images/hero.jpg)
+
 <div style="text-align:right">Language: <i>English</i> | <a href="README_JA.md">日本語</a></div>
 This library removes `example` from your swagger code.
-
-
 
 # Purpose
 
@@ -11,8 +12,6 @@ The purpose of this library is to avoid errors that occur when importing a swagg
 ```bash
 errors : [Invalid model schema specified. Unsupported keyword(s): ["example"]]
 ```
-
-
 
 # Usage
 
@@ -26,12 +25,12 @@ Please call the library as following.
 
 ```javascript
 // import package
-const fs = require('fs');
-const swaggerRmExample = require('swagger-rm-example');
+const fs = require("fs");
+const swaggerRmExample = require("swagger-rm-example");
 
 // read yaml file
 const inputFile = "./swagger.yaml";
-const inputStr = fs.readFileSync(inputFile, 'utf8');
+const inputStr = fs.readFileSync(inputFile, "utf8");
 
 // remove example from string
 const outputStr = swaggerRmExample.removeExample(inputStr);
@@ -39,8 +38,6 @@ const outputStr = swaggerRmExample.removeExample(inputStr);
 // display result
 console.log(outputStr);
 ```
-
-
 
 # Development
 
@@ -53,4 +50,3 @@ npm install
 # Run the test
 npm test
 ```
-

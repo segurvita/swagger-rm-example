@@ -1,8 +1,9 @@
 # swagger-rm-example [![Build Status](https://travis-ci.org/segurvita/swagger-rm-example.svg?branch=master)](https://travis-ci.org/segurvita/swagger-rm-example)
+
+![hero](docs/images/hero.jpg)
+
 <div style="text-align:right">Language: <a href="README.md">English</a> | <i>日本語</i></div>
 swaggerのコードからexampleを取り除くnpmライブラリを作りました。
-
-
 
 # 目的
 
@@ -13,8 +14,6 @@ errors : [Invalid model schema specified. Unsupported keyword(s): ["example"]]
 ```
 
 このエラーを回避することが目的です。
-
-
 
 # 使用方法
 
@@ -30,12 +29,12 @@ npm install swagger-rm-example
 
 ```javascript
 // ライブラリを追加
-const fs = require('fs');
-const swaggerRmExample = require('swagger-rm-example');
+const fs = require("fs");
+const swaggerRmExample = require("swagger-rm-example");
 
 // YAMLファイルを読み込み
 const inputFile = "./swagger.yaml";
-const inputStr = fs.readFileSync(inputFile, 'utf8');
+const inputStr = fs.readFileSync(inputFile, "utf8");
 
 // 文字列からexampleを削除
 const outputStr = swaggerRmExample.removeExample(inputStr);
@@ -43,8 +42,6 @@ const outputStr = swaggerRmExample.removeExample(inputStr);
 // 結果を表示
 console.log(outputStr);
 ```
-
-
 
 # 開発環境構築
 
@@ -57,4 +54,3 @@ npm install
 # テスト実行
 npm test
 ```
-
